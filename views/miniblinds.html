@@ -59,11 +59,15 @@
                 <div class="row">
                     <nav id="breadcrumb" aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                          <li class="breadcrumb-item"><a href="#">INICIO</a></li>
-                          <li class="breadcrumb-item"><a href="#">MINI BLINDS</a></li>
-                          <li class="breadcrumb-item">PREMIUM</li>
+                            <li class="breadcrumb-item">
+                                <a href="#">INICIO</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">MINI BLINDS</a>
+                            </li>
+                            <li class="breadcrumb-item">PREMIUM</li>
                         </ol>
-                      </nav>
+                    </nav>
                 </div>
 
                 <div class="container">
@@ -72,7 +76,7 @@
                             <h1 class="mb-0">Mini Blinds Premium</h1>
                             <p class="subtitulo-azul">MARCA DE LA PERSIANA</p>
                         </div>
-                        <div  id="banner-descripcion" class="col-sm-6">
+                        <div id="banner-descripcion" class="col-sm-6">
                             <p>Descripción de la persiana Sed id interdum urna. Nam ac elit a ante commodo tristique. condimentum vehicula a hendrerit ac nisi. hendrerit ac nisi Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
@@ -80,49 +84,118 @@
                         <p class="subtitulo-azul">PASO 1</p>
                     </div>
                     <div class="row">
-                        <h1>Configura tu persiana</h1>
+                        <h1 class="color-negro">Configura tu persiana</h1>
                     </div>
-                    <div class="row">
-                    <hr>
-                    </div>
-                        <div id="configuracion" class="row">
-                            <div id="config-preview" class="col-xs-3 col-md-2 justify-content-end">
-                                <img src="https://via.placeholder.com/128x124" alt="">
-                                <img src="https://via.placeholder.com/128x124" alt="">
-                                <img src="https://via.placeholder.com/128x124" alt="">
-                                <img src="https://via.placeholder.com/128x124" alt="">
-                            </div>
-                            <div id="config-main-image" class="col-xs-9 col-md-5 pl-0 pr-0 green">
-                                <img src="https://via.placeholder.com/551x652" alt="">
-                            </div>
-                            <div id="config-form" class="col-md-5 blue">
-
-                            </div>
+                    
+                        <hr>
+                    
+                    <div id="configuracion" class="row">
+                        <div id="config-preview" class="col-xs-3 col-md-2 justify-content-end">
+                            <img src="https://via.placeholder.com/128x124" alt="">
+                            <img src="https://via.placeholder.com/128x124" alt="">
+                            <img src="https://via.placeholder.com/128x124" alt="">
+                            <img src="https://via.placeholder.com/128x124" alt="">
                         </div>
+
+                        <div id="config-main-image" class="col-xs-9 col-md-5 pl-0 pr-0">
+                            <img src="https://via.placeholder.com/551x652" alt="">
+                        </div>
+                        <div id="config-form" class="col-md-5">
+                            <div class="row my-2">
+                                <label class="bold-spaced-black mr-3">MEDIDAS</label>
+                                <label>TABLA DE MEDIDAS</label>
+                            </div>
+
+                            <div class="row my-2">
+                                <div class="col-xs-6 col-lg-3 my-auto">
+                                    <label class="bold-gray-for-config" for="">ANCHO</label>
+                                </div>
+
+                                <div class="col-xs-6 col-lg-3">
+                                    <input type="text" class="form-control" value="120 cm">
+                                </div>
+
+                                <div class="col-xs-6 col-lg-3 my-auto">
+                                    <label class="bold-gray-for-config" for="">ALTO</label>
+                                </div>
+
+                                <div class="col-xs-6 col-lg-3">
+                                    <input type="text" class="form-control" value="120 cm">
+                                </div>
+                            </div>
+
+                            <div class="row my-2">
+                                <div class="col-sm-12 col-md-6 form-group my-3">
+                                    <label class="bold-spaced-less-black" for="inputEmail4">OPERACIÓN</label>
+                                    <select class="form-control py-2" id="exampleFormControlSelect1">
+                                        <option>Motorizada</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 form-group my-3">
+                                    <label class="bold-spaced-less-black" for="inputEmail4">ACCIONAMIENTO</label>
+                                    <select class="form-control py-2" id="exampleFormControlSelect1">
+                                        <option>Cinta</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row my-2">
+                                <div class="col-sm-12 col-md-6 form-group my-3">
+                                    <label class="bold-spaced-less-black" for="inputEmail4">LADO DEL MANDO</label>
+                                    <select class="form-control py-2" id="exampleFormControlSelect1">
+                                        <option>Izquierdo</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 form-group my-3">
+                                    <label class="bold-spaced-less-black" for="inputEmail4">MARCO</label>
+                                    <select class="form-control py-2" id="exampleFormControlSelect1">
+                                        <option>Fuera</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 form-group my-3">
+                                    <label class="bold-spaced-less-black" for="inputEmail4">CANTIDAD</label>
+                                    <select class="form-control py-2" id="exampleFormControlSelect1">
+                                        <option>03</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 form-group my-3">
+                                    <label class="bold-spaced-less-black" for="inputEmail4">NOMBRE VENTANA</label>
+                                    <select class="form-control py-2" id="exampleFormControlSelect1">
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4">
+            <!-- Footer -->
+            <footer
+                class="page-footer font-small special-color-dark pt-4">
 
-    <!-- Footer Elements -->
-    <div class="container">
-  
-        <div class="row">
+                <!-- Footer Elements -->
+                <div class="container">
 
-        </div>
-  
-    </div>
-    <!-- Footer Elements -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Intel Blinds - Todos los Derechos Reservados
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
+                    <div class="row"></div>
 
+                </div>
+                <!-- Footer Elements -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2020 Intel Blinds - Todos los Derechos Reservados
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+        </body>
     </body>
 </html>
