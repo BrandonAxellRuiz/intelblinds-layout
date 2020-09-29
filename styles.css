@@ -41,16 +41,13 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
     letter-spacing: 1.8px;
 }
 
-.subtitulo-azul{
-    color:#216EFC;
-    font-size: 18px;
-    font-weight: bold;
-}
+
 
 #banner-descripcion p{
     margin-top: 40px;
     margin-left: -20px;
     font-size: 20px;
+    line-height: 24px;
     color:#707070
 }
 
@@ -59,20 +56,82 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
 }
 
 #config-preview img{
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
     width: 70%;
     height: auto;
 
 }
 
 #config-preview img:not(:last-child){
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 
 #config-main-image img{
+    padding-right: 15px;
     width: 100%;
 }
+
+#config-form{
+    padding-left: 35px;
+    padding-top: 70px;
+}
+
+#config-form div:nth-child(5){
+    margin-top: 50px;
+}
+
+#config-form input{
+    border: transparent;
+    font-size: 18px;
+    height: 55px;
+    border-radius: 9px 9px 9px 9px;
+}
+
+#config-form select{
+    border: transparent;
+    font-size: 18px;
+    height: 55px;
+    border-radius: 9px 9px 9px 9px;
+}
+
+#config-form div:first-child label:nth-child(2){
+    color: #b9b9b9;
+    font-size: 18px;
+}
+
+.color-negro{
+    color: #000000;
+}
+.subtitulo-azul{
+    color:#216EFC;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bold-spaced-black{
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    color: #000000;
+    /* color: #313131; */
+}
+
+.bold-spaced-less-black{
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    color: #313131;
+}
+
+.bold-gray-for-config{
+    font-weight: bold;
+    font-size: 14px;
+    color: #8e8686;
+    letter-spacing: 1.4px;
+}
+
 
 .red{
     background-color: tomato;
