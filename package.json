@@ -1,0 +1,23 @@
+{
+  "name": "blinds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonAxellRuiz/intelblinds-layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonAxellRuiz/intelblinds-layout/issues"
+  },
+  "homepage": "https://github.com/BrandonAxellRuiz/intelblinds-layout#readme"
+}
