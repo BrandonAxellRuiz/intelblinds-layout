@@ -6,28 +6,30 @@
         <link rel="stylesheet" href="../responsive.css">
         <link rel="stylesheet" href="../styles.css">
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <title>Mini Blinds</title>
     </head>
     <body>
         <div class="container">
-            <form class="d-flex justify-content-end form-inline">
+            <form id="servCliente" class="d-flex justify-content-end form-inline">
                 <a href="#link" class="nav-link">
-                    <small>Rastrear
-                        <br>
-                        Pedido</small>
+                    Rastrear
+                    <br>
+                    Pedido
                 </a>|<a href="#link" class="nav-link">
-                    <small>Servicio
-                        <br>al Cliente</small>
+                    Servicio
+                    <br>al Cliente
                 </a>
             </form>
 
             <!-- Comienza navbar -->
-            <nav class="d-flex justify-content-between navbar navbar-expand-lg navbar-light">
+            <nav class="d-flex justify-content-between navbar navbar-expand-lg navbar-light mb-2">
                 <a href="#home" class="navbar-brand"><img src="http://ec2-18-218-67-15.us-east-2.compute.amazonaws.com/intelblinds/wp-content/uploads/2020/07/cropped-full-logo.png" width="auto" height="40" class="d-inline-block align-top" alt="Intelblinds logo"></a>
-                <button aria-controls="basic-navbar-nav" type="button" aria-label="Toggle navigation" class="font-header-menu navbar-toggler collapsed">
+
+                <button class="font-header-menu navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#basic-navbar-nav" aria-controls="basic-navbar-nav" aria-controls="basic-navbar-nav" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="font-header-menu navbar-collapse collapse" id="basic-navbar-nav">
                     <div class="ml-auto mr-4 navbar-nav">
                         <a href="#home" data-rb-event-key="#home" class="nav-link">Inicio</a>
@@ -84,11 +86,11 @@
                         <p class="subtitulo-azul">PASO 1</p>
                     </div>
                     <div class="row">
-                        <h1 class="color-negro">Configura tu persiana</h1>
+                        <h1 class="titulo-negro">Configura tu persiana</h1>
                     </div>
-                    
-                        <hr>
-                    
+
+                    <hr>
+
                     <div id="configuracion" class="row">
                         <div id="config-preview" class="col-xs-3 col-md-2 justify-content-end">
                             <img src="https://via.placeholder.com/128x124" alt="">
@@ -176,26 +178,192 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Footer -->
-            <footer
-                class="page-footer font-small special-color-dark pt-4">
-
-                <!-- Footer Elements -->
-                <div class="container">
-
-                    <div class="row"></div>
-
+        <div id="container-tela" class="container">
+            <div class="container">
+                <div class="row">
+                    <p class="subtitulo-azul">PASO 2</p>
                 </div>
-                <!-- Footer Elements -->
-
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">© 2020 Intel Blinds - Todos los Derechos Reservados
+                <div class="row">
+                    <h1 class="titulo-negro">Elige la tela de tu persiana</h1>
                 </div>
-                <!-- Copyright -->
+                <hr>
 
-            </footer>
-            <!-- Footer -->
-        </body>
+                <div class="row">
+                    <label class="light-gray-hint">Previsualización de la persiana</label>
+                </div>
+
+                <div class="row">
+                    <div id="tela-img" class="col-md-4 img-border">
+                        <div class="container">
+                            <img src="https://via.placeholder.com/128x291" alt="">
+                        </div>
+                    </div>
+                    <div id="tela-config" class="col-md-8">
+                        <div class="container">
+                            <div>
+                                <div class="row">
+                                    <label class="tela-titulo" for="">COLOR</label>
+                                </div>
+
+                                <div class="row">
+                                    Privacy Colors
+                                </div>
+                            </div>
+
+
+                            <div id="colors-1" class="container">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 contenedor-img">
+                                        <div>
+
+                                            <img src="https://via.placeholder.com/128x124" alt="">
+                                            <div class="text-center contenedor-img-desc">
+                                                <label for="">Persiana Sheer</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn btn-light"><</button>
+                                        <button type="button" disabled class="btn btn-light">2 de 5</button>
+                                        <button type="button" class="btn btn-light">></button>
+                                      </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Footer -->
+        <footer
+            class="page-footer font-small special-color-dark pt-4">
+
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <div class="row"></div>
+
+            </div>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Intel Blinds - Todos los Derechos Reservados
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
+
+
 </html>
