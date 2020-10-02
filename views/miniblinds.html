@@ -8,6 +8,11 @@
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400&family=Montserrat:wght@300;400;500;600;700display=swap" rel="stylesheet"> -->
         <title>Mini Blinds</title>
     </head>
     <body>
@@ -76,11 +81,13 @@
                 <div class="container">
                     <div id="banner" class="row">
                         <div class="col-sm-6">
-                            <h1 class="mb-0">Mini Blinds Premium</h1>
+                            <h1 class="mb-0 titulo-negro-bold">Mini Blinds Premium</h1>
                             <p class="subtitulo-azul">MARCA DE LA PERSIANA</p>
                         </div>
                         <div id="banner-descripcion" class="col-sm-6">
-                            <p>Descripción de la persiana Sed id interdum urna. Nam ac elit a ante commodo tristique. condimentum vehicula a hendrerit ac nisi. hendrerit ac nisi Lorem ipsum dolor sit amet.</p>
+                            <div class="container">
+                                <p>Descripción de la persiana Sed id interdum urna. Nam ac elit a ante commodo tristique. condimentum vehicula a hendrerit ac nisi. hendrerit ac nisi Lorem ipsum dolor sit amet.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -181,6 +188,7 @@
             </div>
         </div>
 
+        <!-- Comienza container tela -->
         <div id="container-tela" class="container">
             <div class="container">
                 <div class="row">
@@ -211,7 +219,7 @@
 
                                 <div class="row">
                                     <label for="" class="tipo-color-tela">Privacy Colors</label>
-                                    
+
                                 </div>
                             </div>
 
@@ -333,7 +341,11 @@
                                         <button type="button" class="btn btn-round-left btn-light border ">
                                             <i class="fas fa-chevron-left"></i>
                                         </button>
-                                        <button disabled type="button" class="btn-medio btn btn-light border"> <span>2</span> de <span>5</span></button>
+                                        <button disabled type="button" class="btn-medio btn btn-light border">
+                                            <span>2</span>
+                                            de
+                                            <span>5</span>
+                                        </button>
                                         <button type="button" class="btn btn-round-right btn-light border ">
                                             <i class="fas fa-chevron-right"></i>
                                         </button>
@@ -466,7 +478,11 @@
                                         <button type="button" class="btn btn-round-left btn-light border ">
                                             <i class="fas fa-chevron-left"></i>
                                         </button>
-                                        <button disabled type="button" class="btn-medio btn btn-light border"> <span>2</span> de <span>5</span></button>
+                                        <button disabled type="button" class="btn-medio btn btn-light border">
+                                            <span>2</span>
+                                            de
+                                            <span>5</span>
+                                        </button>
                                         <button type="button" class="btn btn-round-right btn-light border ">
                                             <i class="fas fa-chevron-right"></i>
                                         </button>
@@ -474,13 +490,182 @@
                                 </div>
                             </div>
 
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- Termina container tela -->
+
+        <div id="confirmacion-pedido" class="fondo-gris">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex">
+                        <!-- <p>Imagen 1</p> -->
+                        <div class="container">
+                            <div class="row">
+                                <label for="" class="subtitulo-azul">PASO 3</label>
+                            </div>
+                            <div class="row">
+                                <h1 class="titulo-negro-bold">Confirma tu pedido</h1>
+                            </div>
+                            <div class="row">
+                                <label for="" class="subtitulo-azul-chiquito">ENVÍO GRATIS</label>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="" class="consideraciones">
+                                    Consideración sobre su pedido ejemplo.
+                                </label>
+                            </div>
+                            <div class="row">
+                                <label for="" class="consideraciones">
+                                    Consideración sobre su.
+                                </label>
+                            </div>
+                            <div class="row">
+                                <label for="" class="consideraciones">
+                                    Consideración sobre su pedido.
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex">
+                        <div class="container">
+                            <div class="fondo-gris-mas-oscuro redondo">
+                                <div id="card-confirmacion" class="container">
+
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                            <label class="bold-spaced-less-black" for="inputEmail4">CANTIDAD</label>
+                                            <select class="form-control py-2 text-align-center" id="exampleFormControlSelect1">
+                                                <option>03</option>
+                                            </select>
+
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-end">
+                                            <div>
+                                                <label class="bold-spaced-less-black" for="inputEmail4">TOTAL</label>
+                                                <h1 class="precio">$<span>42.00</span>
+                                                </h1>
+                                            </div>
 
 
+                                        </div>
+                                    </div>
+                                    <div class="row py-4">
+                                        <div class="col">
+                                            <button id="btnAddCarrito" name="btnAddCarrito" type="submit">AÑADIR AL CARRITO</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="resena">
+            <div class="container">
+                <div class="row">
+                    <h1 class="titulo-negro-bold">Reseña</h1>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="separador">
+                            <div class="row align-middle">
+                                <div class="full-stars">
+                                    <div class="rating-group">
+                                        <input disabled checked class="rating__input rating__input--none" name="rating3" id="rating3-none" value="0" type="radio">
+                                        <label aria-label="1 star" class="rating__label" for="rating3-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <input class="rating__input" name="rating3" id="rating3-1" value="1" type="radio">
+                                        <label aria-label="2 stars" class="rating__label" for="rating3-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <input class="rating__input" name="rating3" id="rating3-2" value="2" type="radio">
+                                        <label aria-label="3 stars" class="rating__label" for="rating3-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <input class="rating__input" name="rating3" id="rating3-3" value="3" type="radio">
+                                        <label aria-label="4 stars" class="rating__label" for="rating3-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <input class="rating__input" name="rating3" id="rating3-4" value="4" type="radio">
+                                        <label aria-label="5 stars" class="rating__label" for="rating3-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                        <input class="rating__input" name="rating3" id="rating3-5" value="5" type="radio">
+                                    </div>
+                                </div>
+                                <div class="my-auto ml-2">
+                                <label class="light-gray-hint" class="" for="">10 reseñas</label>
+
+                                </div>
+                            </div>
+                            <p class="preguntas-respuestas">9 preguntas / 9 respuestas</p>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+
+                        <div class="row">
+                            <div class="full-stars">
+                                <div class="rating-group">
+                                    <input disabled checked class="rating__input rating__input--none" name="rating5" id="rating5-none" value="0" type="radio">
+                                    <label aria-label="1 star" class="rating__label" for="rating5-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating5" id="rating5-1" value="1" type="radio">
+                                    <label aria-label="2 stars" class="rating__label" for="rating5-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating5" id="rating5-2" value="2" type="radio">
+                                    <label aria-label="3 stars" class="rating__label" for="rating5-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating5" id="rating5-3" value="3" type="radio">
+                                    <label aria-label="4 stars" class="rating__label" for="rating5-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating5" id="rating5-4" value="4" type="radio">
+                                    <label aria-label="5 stars" class="rating__label" for="rating5-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating5" id="rating5-5" value="5" checked type="radio">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="full-stars">
+                                <div class="rating-group">
+                                    <input disabled checked class="rating__input rating__input--none" name="rating4" id="rating4-none" value="0" type="radio">
+                                    <label aria-label="1 star" class="rating__label" for="rating4-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating4" id="rating4-1" value="1" type="radio">
+                                    <label aria-label="2 stars" class="rating__label" for="rating4-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating4" id="rating4-2" value="2" type="radio">
+                                    <label aria-label="3 stars" class="rating__label" for="rating4-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating4" id="rating4-3" value="3" checked type="radio">
+                                    <label aria-label="4 stars" class="rating__label" for="rating4-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating4" id="rating4-4" value="4" type="radio">
+                                    <label aria-label="5 stars" class="rating__label" for="rating4-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating4" id="rating4-5" value="5" type="radio">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="full-stars">
+                                <div class="rating-group">
+                                    <input disabled checked class="rating__input rating__input--none" name="rating0" id="rating0-none" value="0" type="radio">
+                                    <label aria-label="1 star" class="rating__label" for="rating0-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating0" id="rating0-1" value="1" type="radio">
+                                    <label aria-label="2 stars" class="rating__label" for="rating0-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating0" id="rating0-2" value="2" type="radio">
+                                    <label aria-label="3 stars" class="rating__label" for="rating0-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating0" id="rating0-3" value="3" type="radio">
+                                    <label aria-label="4 stars" class="rating__label" for="rating0-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating0" id="rating0-4" value="4" type="radio">
+                                    <label aria-label="5 stars" class="rating__label" for="rating0-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                                    <input class="rating__input" name="rating0" id="rating0-5" value="5" type="radio">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="green">
+                            <p>Imagen 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Footer -->
