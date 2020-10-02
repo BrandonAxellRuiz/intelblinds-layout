@@ -2,9 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.fondo-gris{
-    background-color: #F2EFEF95;
-}
+
 
 #servCliente a{
     font-size: 13px;
@@ -38,12 +36,12 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
     content: "/";
 }
 
-#banner div:first-child h1{
+/* #banner div:first-child h1{
     font-size: 40px;
     font-weight: 700;
     color:#000000;
     letter-spacing: -2px;
-}
+} */
 
 #banner div:first-child p{
     letter-spacing: 1.8px;
@@ -51,12 +49,13 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
 
 
 
-#banner-descripcion p{
+#banner-descripcion div.container p{
     margin-top: 40px;
     margin-left: -20px;
     font-size: 20px;
     line-height: 24px;
-    color:#707070
+    color:#707070;
+    letter-spacing: 0px;
 }
 
 #config-preview{
@@ -90,18 +89,18 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
     margin-top: 50px;
 }
 
-#config-form input{
-    border: transparent;
-    font-size: 18px;
-    height: 55px;
-    border-radius: 9px 9px 9px 9px;
+input{
+    border: transparent !important;
+    font-size: 18px !important;
+    height: 55px !important;
+    border-radius: 9px 9px 9px 9px !important;
 }
 
-#config-form select{
-    border: transparent;
-    font-size: 18px;
-    height: 55px;
-    border-radius: 9px 9px 9px 9px;
+select{
+    border: transparent !important;
+    font-size: 18px !important;
+    height: 55px !important;
+    border-radius: 9px 9px 9px 9px !important;
 }
 
 #config-form div:first-child label:nth-child(2){
@@ -129,6 +128,27 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
 
 #tela-config div.container div:first-child div.row, .marg-izq-30{
     padding-left: 30px;
+}
+
+#confirmacion-pedido{
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#card-confirmacion{
+    padding: 35px 55px;
+}
+
+#btnAddCarrito{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #216EFC;
+    border: transparent;
+    width: 100%;
+    height: 76px;
 }
 
 .tipo-color-tela{
@@ -161,9 +181,22 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
     letter-spacing: -2px;
 }
 
+.titulo-negro-bold{
+    font-size: 40px;
+    font-weight: 700;
+    color:#000000;
+    letter-spacing: -2px;
+}
+
 .subtitulo-azul{
     color:#216EFC;
     font-size: 18px;
+    font-weight: bold;
+}
+
+.subtitulo-azul-chiquito{
+    color:#216EFC;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -195,6 +228,18 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
     line-height: 26.4px;
 }
 
+.fondo-gris{
+    background-color: #F2EFEF95;
+}
+
+.fondo-gris-mas-oscuro{
+    background-color: #EDEDED;
+}
+
+.redondo{
+    border-radius: 9px;
+}
+
 .img-border{
     border: 1px solid #707070;
 }
@@ -224,6 +269,28 @@ li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::b
     padding: 15px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.consideraciones{
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-size: 20px;
+    /* font-weight: 300; */
+}
+
+.preguntas-respuestas{
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.precio{
+    font-size: 52px;
+    color: #216EFC;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    line-height: 36px;
 }
 
 .btn-round-left{
@@ -267,3 +334,38 @@ button.btn-medio{
 .green{
     background-color: forestgreen;
 }
+
+/* SISTEMA DE ESTRELLAS */
+
+ /* use display:inline-flex to prevent whitespace issues. alternatively, you can put all the children of .rating-group on a single line */
+ .full-stars .rating-group {
+	 display: inline-flex;
+}
+ .full-stars .rating__icon {
+	 pointer-events: none;
+}
+ .full-stars .rating__input {
+	 position: absolute !important;
+	 left: -9999px !important;
+}
+ .full-stars .rating__input--none {
+	 display: none;
+}
+ .full-stars .rating__label {
+	 cursor: pointer;
+	 padding: 0 0.1em;
+	 font-size: 2rem;
+}
+ .full-stars .rating__icon--star {
+	 color: orange;
+}
+ .full-stars .rating__input:checked ~ .rating__label .rating__icon--star {
+	 color: #ddd;
+}
+ .full-stars .rating-group:hover .rating__label .rating__icon--star {
+	 color: orange;
+}
+ .full-stars .rating__input:hover ~ .rating__label .rating__icon--star {
+	 color: #ddd;
+}
+ 
