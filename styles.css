@@ -151,6 +151,10 @@ select{
     height: 76px;
 }
 
+#resena{
+    margin-top: 100px;
+}
+
 .tipo-color-tela{
     letter-spacing: 2.4px;
     font-size: 24px;
@@ -320,6 +324,16 @@ button.btn-medio{
 .btn-round-right i{
     color: #0C55A0;
 
+}
+
+.btn-grande-azul{
+    background-color: #216EFC;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    width: 65%;
+    border: transparent;
+    border-radius: 10px;
 }
 
 
