@@ -3,3 +3,70 @@
     max-width: 1340px !important;
 }
 }
+
+@media only screen and (max-width: 1199px) {
+    /* *{
+        font-size: 0.85rem;
+    } */
+
+    #basic-navbar-nav{
+        font-size: 0.88rem;
+    }
+    #config-form{
+            padding-left: 15px !important;
+            padding-top: 10px !important;
+    }
+
+    #config-form div:nth-child(5) {
+        margin-top: 20px !important;
+    }
+
+    #top-container{
+        padding-bottom: 40px !important;
+    }
+
+    select {
+        border: transparent !important;
+        font-size: 16px !important;
+        height: 50px !important;
+        border-radius: 9px 9px 9px 9px !important;
+    }
+
+    input {
+        border: transparent !important;
+        font-size: 16px !important;
+        height: 50px !important;
+        border-radius: 9px 9px 9px 9px !important;
+    }
+
+    .contenedor-img {
+        margin: 20px 0px;
+        padding-right: 10px !important;
+    }
+
+    .contenedor-img-desc {
+        padding: 3px 0px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .precio {
+        font-size: 40px;
+    }
+
+    #resenadiv3{
+        margin-left:  auto;
+        margin-right:  auto;
+        margin-top: 32px !important;
+    }
+
+    #resenadiv3 button{
+        /* margin: 0px auto; */
+        width: 100%;
+    }
+
+    /* #basic-navbar-nav{
+        font-size: 0.85rem !important;
+    } */
+  } 
+  
