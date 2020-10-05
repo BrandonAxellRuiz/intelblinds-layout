@@ -155,6 +155,33 @@ select{
     margin-top: 100px;
 }
 
+#footer-contenido{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.footer-font{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #363636;
+    font-weight: bold;
+}
+
+.footer-font-gray{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #A1A1A1;
+    /* font-weight: bold; */
+}
+
+.separador{
+    border-right: 1px solid black;
+}
+
+.separador-resena{
+    margin-top: 50px;
+}
+
 .tipo-color-tela{
     letter-spacing: 2.4px;
     font-size: 24px;
