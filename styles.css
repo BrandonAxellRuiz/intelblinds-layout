@@ -153,11 +153,18 @@ select{
 
 #resena{
     margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #footer-contenido{
     margin-top: 120px;
     margin-bottom: 80px;
+}
+
+.elemento-config{
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
 }
 
 .footer-font{
