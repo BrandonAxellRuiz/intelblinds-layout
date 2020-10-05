@@ -172,6 +172,11 @@
 }
 
 @media only screen and (max-width: 438px) {
+
+    #config-main-image img {
+        padding-right: 0px;
+    }
+
     #config-preview img {
         width: 22%;
     }
@@ -183,6 +188,9 @@
         }
     }
 
+    #config-main-image img {
+        padding: 0px;
+    }
 
 }
 
