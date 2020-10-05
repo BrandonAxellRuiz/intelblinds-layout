@@ -69,4 +69,163 @@
         font-size: 0.85rem !important;
     } */
   } 
-  
+
+@media only screen and (max-width: 991px) {
+
+    #banner-descripcion div.container p {
+        font-size: 18px;
+    }
+
+    select, input {
+        font-size: 14px !important;
+        height: 38px !important;
+    }
+
+    .elemento-config{
+        margin-top: auto !important;
+    }
+
+    .bold-spaced-less-black{
+        font-size: 12px;
+    }
+
+    .bold-gray-for-config{
+        font-size: 12px;
+    }
+
+    #config-form div:nth-child(5) {
+        margin-top: 15px !important;
+    }
+
+    #card-confirmacion{
+        margin-top: 32px;
+    }
+
+    #confirmacion-pedido {
+        padding-bottom: 100px;
+    }
+
+    #btnAddCarrito{
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .contenedor-img-desc {
+        padding: 1px 0px;
+        font-size: 14px;
+    }
+
+    .btn-grande-azul{
+        font-size: 18px;
+    }
+/* 
+    #footer-contenido div:last-child{
+        margin: 32px auto;
+    }
+
+    .footer-font{
+        font-size: 16px;
+    } */
+}
+
+@media only screen and (max-width: 767px) {
+    .titulo-negro-bold {
+        font-size: 36px;
+    }
+
+    .subtitulo-azul{
+        font-size: 14px;
+    }
+
+    #banner-descripcion div.container p {
+        font-size: 16px;
+    }
+
+    #config-preview img {
+        width: 23%;
+    }
+
+    #config-preview {
+        text-align: left;
+        padding: 0px;
+    }
+
+    #config-preview img{
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    #footer-contenido {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #footer-contenido > div{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    #footer-contenido {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (max-width: 438px) {
+    #config-preview img {
+        width: 22%;
+    }
+
+    @media only screen and (max-width: 425px) {
+
+        .footer-font {
+            text-align: center !important;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .footer-font {
+        font-size: 16px;
+    }
+
+    li.breadcrumb-item, li.breadcrumb-item a, .breadcrumb-item + .breadcrumb-item::before {
+        font-size: 14px;
+        letter-spacing: 0.47px;
+    }
+
+    #banner{
+        margin-bottom: 16px;
+    }
+
+    .contenedor-img-desc {
+        font-size: 12px;
+    }
+
+    #tela-config div.container div:first-child div.row, .marg-izq-30 {
+        margin-top: 32px;
+    }
+
+    #card-confirmacion div.row div:nth-child(2){
+        justify-content: flex-start !important;
+        margin-top: 8px;
+    }
+
+    #resenadiv1 div div{
+        justify-content: center;
+    }
+
+    .preguntas-respuestas{
+        font-size:  24px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #btnAddCarrito {
+        font-size: 14px;
+    }
+}
+

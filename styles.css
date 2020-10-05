@@ -162,6 +162,11 @@ select{
     margin-bottom: 80px;
 }
 
+.elemento-config{
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}
+
 .footer-font{
     font-family: 'Lato', sans-serif;
     font-size: 15px;
