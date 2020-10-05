@@ -201,6 +201,10 @@
     #tela-config{
         margin-top: 32px;
     }
+
+    .marg-izq-30{
+        margin-top: 32px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
