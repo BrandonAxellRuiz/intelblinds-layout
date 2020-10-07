@@ -1,0 +1,135 @@
+/* REGLAS NECESARIAS PARA HEADER Y FOOTER */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#servCliente a{
+    font-size: 13px;
+    letter-spacing: 0.36px;
+    color: #828282
+}
+
+#footer-contenido{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+#row-features{
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+i.icono{
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.footer-font{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #363636;
+    font-weight: bold;
+}
+
+.footer-font-gray{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #A1A1A1;
+    /* font-weight: bold; */
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  
+  .carousel-caption {
+    /* top: 50%; */
+    transform: translateY(-30%);
+  }
+
+  .slider-container {
+    width: 100%;
+    height: 100% !important;
+    opacity: 0.85;
+  }
+
+
+  .subtitle-slider-caption {
+    color: #216EFC;
+  }
+
+  strong.font-weight-bold > p.black-title{
+    margin-bottom: -22px;
+    font-size: 60px;
+    color: #000000;
+}
+
+strong.font-weight-bold > p.blue-title{
+    margin-bottom: 0px;
+    margin-top: -22px;
+    font-size: 60px;
+    color: #216EFC;
+}
+
+strong.font-weight-bold > .btn-link-underline {
+    margin-bottom: 0px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    letter-spacing: 4px;
+  }
+
+  .features-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .features-desc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3.6px;
+    color: #A1A1A1;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+  .todas-las-colecciones{
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: bold;
+
+  }
+  
+  /* .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  div.carousel-caption > h1.font-weight-bold > p.black-title {
+    margin-bottom: 0px;
+    color: #000 !important;
+    font-size: 1.4em;
+  }
+  
+  div.carousel-caption > h1.font-weight-bold > p.blue-title {
+    margin-bottom: 0px;
+    color: #3578f9 !important;
+    font-size: 1.4em;
+  }
+  
+  */
+
+  
+
+/* .carousel-item img, .carousel-item-active img{
+    height: 630px;
+} */
+/* REGLAS NECESARIAS PARA HEADER Y FOOTER */
