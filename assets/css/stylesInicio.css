@@ -22,6 +22,37 @@
   margin-bottom: 64px;
 }
 
+.titulo-persiana{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: -24px;
+}
+
+.desc-persiana{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 3.6px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #A1A1A1;
+}
+
+.contenedor-img{
+  width: 100%;
+  height: 100%;
+}
+
+.row-img img{
+  width: 100%;
+  height: 100%;
+}
+
+img.img-fix{
+  width: 102%;
+}
+
 i.icono{
   font-size: 20px;
   margin-top: 8px;
@@ -105,7 +136,13 @@ strong.font-weight-bold > .btn-link-underline {
     font-size: 36px;
     line-height: 58px;
     font-weight: bold;
+  }
 
+  .texto-para-descripcion{
+    font: bold 12px / 26px Lato;
+    letter-spacing: 3.6px;
+    color: rgb(172, 172, 172);
+    /* opacity: 1; */
   }
   
   /* .carousel-caption {
