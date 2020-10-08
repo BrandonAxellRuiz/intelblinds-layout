@@ -22,6 +22,40 @@
   margin-bottom: 64px;
 }
 
+#row-cards-coloridas{
+  margin-top: 90px;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+}
+
+div.texto-card-colorida{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+}
+
+.cards-coloridas{
+  height: 425px;
+  width: 90%;
+  border-radius: 80px;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.1);
+
+}
+
+#card-azul{
+  background-color: #216EFC;
+}
+
+#card-naranja{
+  background-color: #F38B23;
+}
+
+#card-verde{
+  background-color: #ACCC23;
+}
+
 .titulo-persiana{
   font-weight: bold;
   font-size: 24px;
@@ -144,6 +178,8 @@ strong.font-weight-bold > .btn-link-underline {
     color: rgb(172, 172, 172);
     /* opacity: 1; */
   }
+
+
   
   /* .carousel-caption {
     top: 50%;
