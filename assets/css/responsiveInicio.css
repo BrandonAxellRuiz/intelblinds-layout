@@ -3,3 +3,9 @@
         max-width: 1340px !important;
     }
     }
+/* NOTA: ESTA REGLA HACE QUE AL BAJAR DE 1340PX LA IMAGEN PROBLEMATICA DE LA 3ERA ROW COMIENCE A CAMBIAR SU TAMAÑO */
+@media(min-width:1340px){
+    #img-probl{
+        height: 273px;
+    }
+}
