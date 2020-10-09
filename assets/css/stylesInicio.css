@@ -28,6 +28,68 @@
   /* margin-right: 50px; */
 }
 
+.recuadro-negro{
+  background-color: black;
+  padding-left: 10px;
+  margin-left: 30px;
+}
+
+.grandes-ofertas{
+  color: white;
+  font-weight: bold;
+  margin: 0px 0px;
+  letter-spacing: 9.12px;
+  font-size: 24px;
+  line-height: 47.31px;
+  font-size: 24px;
+}
+
+
+.summer-sale-black-regular{
+  font-size: 48px;
+  letter-spacing: 2.4px;
+  line-height: 48px;
+}
+
+.summer-sale-blue-bold-big{
+  font-weight: bold;
+  font-size: 120px;
+  color: #216EFC;
+  letter-spacing: 12px;
+  line-height: 73.79px;
+}
+
+.div-amarillo{
+  margin-top: 100px;
+  height: 500px;
+  background-color: #FFDD22;
+}
+
+div.div-amarillo div.align-items-center{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 75px;
+}
+
+.mucho-padding-izq{
+  padding-left: 45px;
+}
+
+.comprar-ahora{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  letter-spacing: 4.8px;
+  font-weight: bold;
+}
+
+/* div.div-amarillo > div.row{
+  width: 30%;
+} */
+
 div.texto-card-colorida{
   margin-top: 50px;
   margin-left: 30px;
