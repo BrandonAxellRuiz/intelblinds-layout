@@ -13,7 +13,7 @@
 }
 
 #footer-contenido{
-    margin-top: 120px;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -116,6 +116,128 @@ div.texto-card-colorida{
 
 #card-verde{
   background-color: #ACCC23;
+}
+
+#oferta-de-la-semana{
+  margin-top: 115px;
+  background-color: #216EFC;
+}
+
+#ofertas-desc{
+  padding-left: 55px;
+}
+
+/* ods = oferta de la semana */
+
+.intel-blinds-ods{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: 7.8px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.ods-ods{
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+  line-height: 58px;
+}
+
+.precio-ods{
+  margin-top: 42px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+.obj-ods{
+  font-size: 30px;
+  line-height: 58px;
+  color:white;
+  font-weight: 400;
+}
+
+.tiempo-ods{
+  margin-top: 30px;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.numero-ods, .unidad-ods{
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.numero-ods{
+  font-size: 48px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.unidad-ods{
+  font-size: 16px;
+  line-height: 36px;
+  font-style: italic;
+}
+
+.btn-ods{
+  background-color: transparent;
+  padding: 0px 30px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  letter-spacing: 3.3px;
+  line-height: 40px;
+  font-size: 11px;
+}
+
+#row-descuento{
+  margin-top: 60px;
+}
+
+.titulo-descuento{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 58px;
+}
+
+.numero-descuento{
+  color: #216EFC;
+}
+
+.texto-descuento{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #A1A1A1;
+  font-weight: bold;
+}
+
+.registra-correo{
+  background-color: #F0F5F9;
+  color: #A1A1A1;
+  font-family: 'Lato', sans-serif;
+  border: 1px solid transparent;
+  font-size: 15px;
+  height: 41px;
+  /* line-height: ; */
+}
+
+.btn-registra-correo{
+  border: 1px solid transparent;
+  background-color: #216EFC;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 38px;
+  padding-right: 38px;
+  height: 40px;
+  /* padding-top: 13px; */
+  /* padding-bottom: 13px; */
+  color: white;
 }
 
 .titulo-persiana{
