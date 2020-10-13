@@ -9,3 +9,519 @@
         height: 273px;
     }
 }
+
+@media only screen and (max-width: 1199px) {
+    #basic-navbar-nav{
+        font-size: 0.88rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .carousel-caption {
+        /* top: 50%; */
+        transform: translateY(-50%);
+      }
+
+      .titulo-persiana {
+        font-size: 18px;
+    }
+
+    .desc-persiana {
+        font-size: 10px;
+    }
+
+    div.texto-card-colorida {
+        font-size: 24px;
+    }
+
+    .cards-coloridas {
+        height: 325px;
+    }
+
+    #row-cards-coloridas {
+        margin-top: 60px;
+    }
+
+    .cards-coloridas {
+        border-radius: 50px;
+    }
+
+    div.div-amarillo div.align-items-center {
+        padding-right: 0px;
+    }
+
+    /* Aquí la verdad fue mucha prueba y error así que copié el código modificado directamente de los estilos del navegador*/
+
+    .intel-blinds-ods {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .ods-ods {
+        margin-top: 8px;
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+    .precio-ods {
+        margin-top: 18px;
+        font-size: 24px;
+        line-height: 43px;
+    }
+
+    .obj-ods {
+        font-size: 22px;
+        line-height: 44px;
+    }
+
+    .tiempo-ods {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .numero-ods {
+        font-size: 40px;
+        line-height: 36px;
+    }
+
+    .unidad-ods {
+        font-size: 17px;
+        line-height: 36px;
+    }
+
+    .dos-puntos-ods{
+        display: none;
+    }
+    
+    .titulo-descuento {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .btn-registra-correo {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    p.texto-descuento br{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #footer-contenido {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #footer-contenido > div{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    #footer-contenido {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    strong.font-weight-bold > p.black-title {
+        margin-top: 15px;
+        margin-bottom: 0px;
+        font-size: 40px;
+        color: #000000;
+        line-height: 55px;
+    }
+
+    strong.font-weight-bold > p.blue-title {
+        margin-bottom: 0px;
+        margin-top: -22px;
+        font-size: 40px;
+        color: #216EFC;
+        line-height: 60px;
+    }
+
+    #row-img-xl{
+        display: none;
+    }
+
+    #row-img-sm{
+        display: flex !important;
+    }
+
+    .carousel-caption {
+        transform: translateY(-70%);
+    }
+
+    #row-cards-coloridas {
+        margin-top: 30px;
+    }
+
+    div.texto-card-colorida {
+        font-size: 36px;
+    }
+
+    .cards-coloridas {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .div-amarillo {
+        margin-top: 70px;
+        height: 380px;
+    }
+
+    .summer-sale-black-regular {
+        font-size: 36px;
+        line-height: 25px;
+    }
+
+    .summer-sale-blue-bold-big {
+        font-size: 80px;
+        color: #216EFC;
+        line-height: 73.79px;
+    }
+
+    .grandes-ofertas {
+        letter-spacing: 8.12px;
+        line-height: 35.31px;
+        font-size: 16px;
+    }
+
+    .comprar-ahora {
+        margin-top: 35px;
+    }
+
+    .recuadro-negro {
+        margin-left: 0px;
+    }
+
+    .intel-blinds-ods {
+        margin-top: 24px;
+    }
+
+    #ofertas-desc{
+        padding: 24px 24px;
+        /* padding-bottom: 24px; */
+    }
+
+    .precio-ods{
+        font-size: 30px;
+    }
+
+    .numero-ods{
+        font-size: 38px;
+    }
+
+    .unidad-ods{
+        font-size: 16px;
+    }
+
+    .dos-puntos-ods{
+        display: initial;
+    }
+
+    #oferta-de-la-semana div.row div:nth-child(2){
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 438px) {
+    .dos-puntos-ods {
+        display: none;
+    }
+
+    .numero-ods{
+        font-size: 36px;
+    }
+
+    .unidad-ods{
+        font-size: 11px;
+        line-height: 56px;
+    }
+
+    .ods-ods{
+        font-size: 30px;
+    }
+
+    .obj-ods{
+        font-size: 28px;
+    }
+
+    .summer-sale-blue-bold-big {
+        letter-spacing: 0px;
+        font-size: 70px;
+    }
+
+    .summer-sale-black-regular {
+        font-size: 32px;
+    }
+
+    .mucho-padding-izq {
+        padding-left: 20px;
+    }
+
+    #row-cards-coloridas {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    div.texto-card-colorida {
+        font-size: 26px;
+    }
+    .todas-las-colecciones {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .ods-ods {
+        font-size: 28px;
+    }
+
+    .obj-ods {
+        font-size: 26px;
+    }
+
+    .unidad-ods {
+        font-size: 9px;
+        line-height: 26px;
+    }
+
+    strong.font-weight-bold > p.black-title {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        color: #000000;
+        line-height: 55px;
+    }
+
+    strong.font-weight-bold > p.blue-title {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 30px;
+        color: #216EFC;
+        line-height: 44px;
+    }
+
+    .subtitle-slider-caption{
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    strong.font-weight-bold > p.black-title {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        color: #000000;
+        line-height: 30px;
+    }
+
+    strong.font-weight-bold > p.blue-title {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 30px;
+        color: #216EFC;
+        line-height: 35px;
+    }
+
+    .todas-las-colecciones {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .grandes-ofertas {
+        letter-spacing: 8.12px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .summer-sale-black-regular {
+        font-size: 26px;
+    }
+
+    .summer-sale-blue-bold-big {
+        letter-spacing: -1px;
+        font-size: 60px;
+    }
+
+    .div-amarillo {
+        margin-top: 70px;
+        height: 340px;
+    }
+
+    .ods-ods {
+        font-size: 24px;
+    }
+
+    .obj-ods {
+        font-size: 22px;
+    }
+
+    .numero-ods {
+        font-size: 27px;
+    }
+
+    .titulo-descuento {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .texto-descuento {
+        font-size: 14px;
+    }
+
+    .footer-font {
+        text-align: center !important;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .subtitle-slider-caption{
+        font-size: .7rem;
+    }
+
+    strong.font-weight-bold > p.blue-title {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 30px;
+        color: #216EFC;
+        line-height: 25px;
+    }
+
+    strong.font-weight-bold > .btn-link-underline {
+        margin-bottom: 0px;
+        color: #000000;
+        font-size: 10px;
+        /* line-height: 5px; */
+        text-decoration: underline;
+        letter-spacing: 4px;
+    }
+
+    .todas-las-colecciones {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .texto-para-descripcion {
+        font: bold 12px / 12px Lato;
+        letter-spacing: 3.6px;
+        color: rgb(172, 172, 172);
+        /* opacity: 1; */
+    }
+
+    .cards-coloridas {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .summer-sale-blue-bold-big {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .summer-sale-black-regular {
+        font-size: 21px;
+        line-height: 12px;
+    }
+
+    .grandes-ofertas {
+        letter-spacing: 5.12px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+    .comprar-ahora {
+        margin-top: 22px;
+        font-size: 12px;
+    }
+
+    .div-amarillo {
+        margin-top: 35px;
+        height: 230px;
+    }
+
+    #oferta-de-la-semana {
+        margin-top: 70px;
+    }
+
+    .intel-blinds-ods {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+    .ods-ods {
+        font-size: 20px;
+    }
+
+    .precio-ods {
+        font-size: 12px;
+        margin-top: 18px;
+        font-size: 24px;
+        line-height: 12px;
+    }
+
+    .obj-ods {
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #tiempo-ods{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .unidad-ods {
+        align-self: center;
+        font-size: 8px;
+    }
+
+    .numero-ods {
+        font-size: 16px;
+    }
+
+    .btn-ods {
+        background-color: transparent;
+        padding: 0px 20px;
+        color: white;
+        font-weight: bold;
+        border: 1px solid white;
+        letter-spacing: 3.3px;
+        line-height: 24px;
+        font-size: 9px;
+    }
+
+    .titulo-descuento {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .texto-descuento {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .btn-registra-correo {
+        font-size: 10px;
+        height: 35px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .registra-correo {
+        font-size: 12px;
+        height: 36px;
+    }
+}
