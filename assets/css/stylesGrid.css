@@ -152,7 +152,10 @@ line-height: 25px;
 #short-desc{
     margin-top: 130px;
     margin-bottom: 60px;
-    padding: 0px 260px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 0px 260px; */
+    width: 70%;
     text-align: center;
 }
 
@@ -166,10 +169,147 @@ line-height: 54px;
 
 .separador{
     width: 25%;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+}
+
+select{
+    border: 1px solid black;
+    font-size: 18px;
+    height: 55px;
+    border-radius: 9px 9px 9px 9px;
+}
+
+.nombre-articulo{
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0.65px;
+    color: black;
+}
+
+.precio-sin-rebaja-articulo{
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    text-decoration:line-through;
+}
+
+.precio-rebajado-articulo{
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 1.7px;
+    color: #216EFC;
+    margin-bottom: 0px;
+}
+
+.btn-article{
+    border: transparent;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    background-color: #216EFC;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 20px;
+    font-weight: bold;
+    /* padding: 25px 55px; */
+}
+
+.art-desc{
+    padding-left: 15px;
+    padding-right: 20px;
 }
 
 
+
+i.far.fa-bookmark{
+    font-size: 35px;
+    color: #1654A1;
+}
+
+#productos-1{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#productos-1>div:not(:first-child):not(:nth-last-child(2)).row{
+    margin-bottom: 100px;
+}
+
+#productos-1>div.row:first-child{
+    margin-right: 50px;
+    margin-bottom: 32px;
+}
+
+#productos-1>div.row:last-child{
+    margin-top: 48px;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+
+#row-cards-coloridas{
+    margin-top: 250px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+  }
+
+div.texto-card-colorida{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+  }
+  
+  .cards-coloridas{
+    height: 425px;
+    width: 90%;
+    border-radius: 80px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.1);
+  
+  }
+  
+  #card-azul{
+    background-color: #216EFC;
+  }
+  
+  #card-naranja{
+    background-color: #F38B23;
+  }
+  
+  #card-verde{
+    background-color: #ACCC23;
+  }
+
+  .btn-round-left{
+    border-top-left-radius: 17px !important;
+border-bottom-left-radius: 17px !important;
+background-color: white !important;
+}
+
+.btn-round-left i{
+    color: #0C55A0;
+}
+
+button.btn-medio{
+    background-color: white !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #000000 !important;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.btn-round-right{
+    border-top-right-radius: 17px !important;
+    background-color: white !important;
+    border-bottom-right-radius: 17px !important;
+    /* border: 1px solid #BDC0C4; */
+}
+
+.btn-round-right i{
+    color: #0C55A0;
+
+}
 
 
 /* .row-hero div:nth-child(2) img{ */
