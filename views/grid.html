@@ -3,497 +3,813 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../assets/libs/slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="../assets/libs/slick-1.8.1/slick/slick-theme.css"/>
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../assets/css/stylesGrid.css">
         <link rel="stylesheet" href="../assets/css/responsiveGrid.css">
         <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-        <link
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 
         <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400&family=Montserrat:wght@300;400;500;600;700display=swap" rel="stylesheet"> -->
         <title>Grid</title>
     </head>
-<body>
-    <div class="container">
-        <form id="servCliente" class="d-flex justify-content-end form-inline">
-            <a href="#link" class="nav-link">
-                Rastrear
-                <br>
-                Pedido
-            </a>|<a href="#link" class="nav-link">
-                Servicio
-                <br>al Cliente
-            </a>
-        </form>
+    <body>
+        <div class="container">
+            <form id="servCliente" class="d-flex justify-content-end form-inline">
+                <a href="#link" class="nav-link">
+                    Rastrear
+                    <br>
+                    Pedido
+                </a>|<a href="#link" class="nav-link">
+                    Servicio
+                    <br>al Cliente
+                </a>
+            </form>
 
-        <!-- Comienza navbar -->
-        <nav class="d-flex justify-content-between navbar navbar-expand-lg navbar-light mb-2">
-            <a href="#home" class="navbar-brand"><img src="http://ec2-18-218-67-15.us-east-2.compute.amazonaws.com/intelblinds/wp-content/uploads/2020/07/cropped-full-logo.png" width="auto" height="40" class="d-inline-block align-top" alt="Intelblinds logo"></a>
+            <!-- Comienza navbar -->
+            <nav class="d-flex justify-content-between navbar navbar-expand-lg navbar-light mb-2">
+                <a href="#home" class="navbar-brand"><img src="http://ec2-18-218-67-15.us-east-2.compute.amazonaws.com/intelblinds/wp-content/uploads/2020/07/cropped-full-logo.png" width="auto" height="40" class="d-inline-block align-top" alt="Intelblinds logo"></a>
 
-            <button class="font-header-menu navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#basic-navbar-nav" aria-controls="basic-navbar-nav" aria-controls="basic-navbar-nav" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="font-header-menu navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#basic-navbar-nav" aria-controls="basic-navbar-nav" aria-controls="basic-navbar-nav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="font-header-menu navbar-collapse collapse" id="basic-navbar-nav">
-                <div class="ml-auto mr-4 navbar-nav">
-                    <a href="#home" data-rb-event-key="#home" class="nav-link">Inicio</a>
-                    <div class="dropdown nav-item">
-                        <a aria-haspopup="true" aria-expanded="false" id="basic-nav-dropdown" href="#" class="dropdown-toggle nav-link" role="button">Productos</a>
+                <div class="font-header-menu navbar-collapse collapse" id="basic-navbar-nav">
+                    <div class="ml-auto mr-4 navbar-nav">
+                        <a href="#home" data-rb-event-key="#home" class="nav-link">Inicio</a>
+                        <div class="dropdown nav-item">
+                            <a aria-haspopup="true" aria-expanded="false" id="basic-nav-dropdown" href="#" class="dropdown-toggle nav-link" role="button">Productos</a>
+                        </div>
+                        <a href="#link" data-rb-event-key="#link" class="nav-link">¿Cómo medir?
+                        </a>
+                        <a href="#link" data-rb-event-key="#link" class="nav-link">¿Cómo instalar?
+                        </a>
+                        <a href="#link" data-rb-event-key="#link" class="nav-link">Contacto
+                        </a>
                     </div>
-                    <a href="#link" data-rb-event-key="#link" class="nav-link">¿Cómo medir?
-                    </a>
-                    <a href="#link" data-rb-event-key="#link" class="nav-link">¿Cómo instalar?
-                    </a>
-                    <a href="#link" data-rb-event-key="#link" class="nav-link">Contacto
-                    </a>
+                    <form class="form-inline">
+                        <a href="#link" class="nav-link" style="color: rgb(161, 161, 161);">
+                            <small>MI CUENTA</small>
+                        </a>
+                        <a href="#link" class="nav-link">
+                            <small>MI CARRITO</small>
+                        </a>
+                    </form>
                 </div>
-                <form class="form-inline">
-                    <a href="#link" class="nav-link" style="color: rgb(161, 161, 161);">
-                        <small>MI CUENTA</small>
-                    </a>
-                    <a href="#link" class="nav-link">
-                        <small>MI CARRITO</small>
-                    </a>
-                </form>
-            </div>
-        </nav>
-        <!-- Téermina navbar -->
-    </div>
+            </nav>
+            <!-- Téermina navbar -->
+        </div>
 
-    <div id="hero-accion" class="container-fluid">
-        <div class="row row-hero  d-flex align-items-center">
-            <div id="desc-caracteristicas" class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-4">
-              <h1 class="titulo-persiana-caracteristicas">Mini Blinds</h1>
-              <h4 class="marca-persiana">MARCA DE LA PERSIANA</h4>
-              <p class="caracteristicas-descripciones">Las mini persianas, o persianas de 
-              aluminio, son una opción de bajo
-              costo con funcionalidad completa.</p>
+        <div id="hero-accion" class="container-fluid">
+            <div class="row row-hero  d-flex align-items-center">
+                <div id="desc-caracteristicas" class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-4">
+                    <h1 class="titulo-persiana-caracteristicas">Mini Blinds</h1>
+                    <h4 class="marca-persiana">MARCA DE LA PERSIANA</h4>
+                    <p class="caracteristicas-descripciones">Las mini persianas, o persianas de 
+                                                              aluminio, son una opción de bajo
+                                                              costo con funcionalidad completa.</p>
 
-              <h4 class="caracteristicas-principales">Características principales</h4>
+                    <h4 class="caracteristicas-principales">Características principales</h4>
 
-              <ul id="caracteristicas" class="d-flex justify-content-between">
-                <li class="caracteristica"><i class="fas fa-check-square"></i> Sin cable</li>
-                <li class="caracteristica"><i class="far fa-eye-slash"></i> Privacidad</li>
-                <li class="caracteristica"><i class="fas fa-coins"></i> Buen precio</li>
-              </ul>  
+                    <ul id="caracteristicas" class="d-flex justify-content-between">
+                        <li class="caracteristica">
+                            <i class="fas fa-check-square"></i>
+                            Sin cable</li>
+                        <li class="caracteristica">
+                            <i class="far fa-eye-slash"></i>
+                            Privacidad</li>
+                        <li class="caracteristica">
+                            <i class="fas fa-coins"></i>
+                            Buen precio</li>
+                    </ul>
 
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 pr-0">
-                <div class="img">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 pr-0">
+                    <div class="img">
 
-                    <div class="container d-flex flex-column justify-content-between align-items-end h-100">
-                        <div class="row">
-                            <div class="div-en-accion row">
-                                <div class="col-5 pr-0 my-auto"><img src="../assets/img/blinds3.svg" alt=""></div>
-                                <div class="col-7 my-auto"> <p>Vea las persianas en acción</p></div>
+                        <div class="container d-flex flex-column justify-content-between align-items-end h-100">
+                            <div class="row">
+                                <div class="div-en-accion row">
+                                    <div class="col-5 pr-0 my-auto"><img src="../assets/img/blinds3.svg" alt=""></div>
+                                    <div class="col-7 my-auto">
+                                        <p>Vea las persianas en acción</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row row-botones">
+                                <div class="col">
+                                    <button class="btn-banner btn-azul-activo">¿Cómo medir?</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn-banner btn-azul">¿Cómo instalar?</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn-banner btn-azul">Garantía</button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="row row-botones">
-                            <div class="col"><button class="btn-banner btn-azul-activo">¿Cómo medir?</button></div>
-                            <div class="col"><button class="btn-banner btn-azul">¿Cómo instalar?</button></div>
-                            <div class="col"><button class="btn-banner btn-azul">Garantía</button></div>
-                        </div>
                     </div>
-                    
                 </div>
             </div>
-          </div>
-    </div>
+        </div>
 
-    <div class="container-fluid">
-        <div id="short-desc" class="row">
-            <h1>
-            Son fáciles de operar, limpiar y personalizar; también son algunas de las persianas más ligeras disponibles y caben en la mayoría de las ventanas.
-        </h1>
-    </div>
-    </div>
+        <div class="container-fluid">
+            <div id="short-desc" class="row">
+                <h1>
+                    Son fáciles de operar, limpiar y personalizar; también son algunas de las persianas más ligeras disponibles y caben en la mayoría de las ventanas.
+                </h1>
+            </div>
+        </div>
 
-    <div class="separador mx-auto">
+        <div class="separador mx-auto">
+            <hr>
+        </div>
+
+        <div id="productos-1" class="container-fluid">
+            <div class="row d-flex justify-content-end">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-3">
+                    <select class="form-control py-2" id="exampleFormControlSelect1">
+                        <option value="">FILTRAR POR MARCA</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana1.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Mini Blind</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana2.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Premium Mini Blinds</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana1.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Mark One Mini Blind</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana1.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Mini Blind</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana2.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Premium Mini Blinds</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana1.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Mark One Mini Blind</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana1.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Mini Blind</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana2.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Premium Mini Blinds</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-producto col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana1.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">1" Mark One Mini Blind</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row d-flex justify-content-end pr-3">
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-round-left btn-light border ">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button disabled type="button" class="btn-medio btn btn-light border">
+                        <span>2</span>
+                        de
+                        <span>5</span>
+                    </button>
+                    <button type="button" class="btn btn-round-right btn-light border ">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div id="row-cards-coloridas" class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+                    <div class="cards-coloridas" id="card-azul">
+                        <div class="texto-card-colorida">¿Cómo
+                            <br>
+                            medir?</div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+                    <div class="cards-coloridas" id="card-naranja">
+                        <div class="texto-card-colorida">¿Cómo
+                            <br>
+                            instalar?</div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="cards-coloridas" id="card-verde">
+                        <div class="texto-card-colorida">Garantía</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="productos-anteriores" class="container-fluid fondo-gris">
+            <div class="row d-flex justify-content-center">
+                <h1>Productos vistos anteriormente</h1>
+            </div>
+
+                <div id="slick">
+                  <div class="slide">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana3.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">Lorem Ipsum</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            
+                  <div class="slide">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana3.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">Lorem Ipsum</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            
+                  <div class="slide">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana3.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">Lorem Ipsum</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            
+                  <div class="slide">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana3.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">Lorem Ipsum</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            
+                  <div class="slide">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana3.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">Lorem Ipsum</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            
+                  <div class="slide">
+                    <div class="container">
+                        <img class="w-100" src="../assets/img/persiana3.png" alt="">
+                        <div class="art-desc">
+                            <div class="row mb-3">
+                                <div class="col-10">
+                                    <h3 class="nombre-articulo">Lorem Ipsum</h3>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h4 class="precio-sin-rebaja-articulo">$60.00</h4>
+                                        </div>
+                                        <div class="row">
+                                            <h4 class="precio-rebajado-articulo">
+                                                $60.00
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-auto">
+                                    <button class="btn-article">COMPRAR AHORA</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            
+                </div>
+
+        </div>
+
+        <div id="help" class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-5 text-right my-auto">
+                    <span class="icon-phone"></span>
+                    <img src="../assets/img/Ilustracion7.svg" alt="">
+                </div>
+                <div class="col-7 text-left">
+                        <p class="necesitas-ayuda">¿Necesitas ayuda?</p>
+                        <p class="llama-o-escribe">Llámanos o Escríbenos</p>
+                        <p class="telefono-ring-ring">Tel. 844-873-2454</p>
+                        <p class="contacto-email">contacto@intelblinds.com</p>
+                </div>
+            </div>
+        </div>
         <hr>
-    </div>
+        <footer
+            class="page-footer font-small special-color-dark pt-4">
 
-    <div id="productos-1" class="container-fluid">
-        <div class="row d-flex justify-content-end">
-            <div class="col-2">
-                <select class="form-control py-2" id="exampleFormControlSelect1">
-                    <option value="">FILTRAR POR MARCA</option>
-                </select>
-            </div>
-        </div>
+            <!-- Footer Elements -->
+            <div class="container">
 
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana1.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Mini Blind</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
+                <div id="footer-contenido" class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-around footer-font">
+                        <label for="">Aviso de privacidad</label>
+                        <label for="">Términos y condiciones</label>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+                        <img src="http://ec2-18-218-67-15.us-east-2.compute.amazonaws.com/intelblinds/wp-content/uploads/2020/07/cropped-full-logo.png" width="auto" height="40" class="d-inline-block align-top" alt="Intelblinds logo">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center footer-font">
+                        <div>
+                            <label for="">¡Síguenos!
+                            </label>
+                            <img height="25px" src="../assets/img/Instagram_logo_2016.svg" alt="">
+                            <img height="25px" src="../assets/img/facebook.svg" alt="">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana2.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Premium Mini Blinds</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana1.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Mark One Mini Blind</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana1.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Mini Blind</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana2.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Premium Mini Blinds</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana1.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Mark One Mini Blind</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana1.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Mini Blind</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana2.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Premium Mini Blinds</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                <div class="container">
-                    <img class="w-100" src="../assets/img/persiana1.png" alt="">
-                    <div class="art-desc">
-                        <div class="row mb-3">
-                            <div class="col-10"><h3 class="nombre-articulo">1" Mark One Mini Blind</h3> 
-                            </div>
-                            <div class="col-2 d-flex justify-content-end">
-                                <i class="far fa-bookmark"></i>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="container">
-                                    <div class="row">
-                                       <h4 class="precio-sin-rebaja-articulo">$60.00</h4> 
-                                    </div>
-                                    <div class="row">
-                                        <h4 class="precio-rebajado-articulo">
-                                            $60.00
-                                        </h4> 
-                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 mt-auto">
-                                <button class="btn-article">COMPRAR AHORA</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="row d-flex justify-content-end pr-3">
-
-            <div class="btn-group">
-                <button type="button" class="btn btn-round-left btn-light border ">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button disabled type="button" class="btn-medio btn btn-light border">
-                    <span>2</span>
-                    de
-                    <span>5</span>
-                </button>
-                <button type="button" class="btn btn-round-right btn-light border ">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="container">
-        <div id="row-cards-coloridas" class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                <div class="cards-coloridas" id="card-azul">
-                    <div class="texto-card-colorida">¿Cómo
-                        <br>
-                        medir?</div>
                 </div>
 
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                <div class="cards-coloridas" id="card-naranja">
-                    <div class="texto-card-colorida">¿Cómo
-                        <br>
-                        instalar?</div>
-                </div>
+            <!-- Footer Elements -->
 
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 ">
+                <label class="footer-font-gray">© 2020 Intel Blinds - Todos los Derechos Reservados</label>
             </div>
-            <div class="col-md-4 d-flex justify-content-center">
-                <div class="cards-coloridas" id="card-verde">
-                    <div class="texto-card-colorida">Garantía</div>
-                </div>
+            <!-- Copyright -->
 
-            </div>
-        </div>
-    </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../assets/libs/slick-1.8.1/slick/slick.min.js"></script>
 
-    <footer
-    class="page-footer font-small special-color-dark pt-4">
+        <script type="text/javascript">
+        // PARA MAS INFORMACIÓN ACERCA DE SLICK, IR A https://kenwheeler.github.io/slick/
+var breakpoint = {
+      // extra Small screen / phone
+  xs: 320,
+  // Small screen / phone
+  sm: 576,
+  // Medium screen / tablet
+  md: 768,
+  // Large screen / desktop
+  lg: 992,
+  // Extra large screen / wide desktop
+  xl: 1200
+};
 
-    <!-- Footer Elements -->
-    <div class="container">
-
-        <div id="footer-contenido" class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-around footer-font">
-                <label for="">Aviso de privacidad</label>
-                <label for="">Términos y condiciones</label>
-
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
-                <img src="http://ec2-18-218-67-15.us-east-2.compute.amazonaws.com/intelblinds/wp-content/uploads/2020/07/cropped-full-logo.png" width="auto" height="40" class="d-inline-block align-top" alt="Intelblinds logo">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center footer-font">
-                <div>
-                    <label for="">¡Síguenos!
-                    </label>
-                    <img height="25px" src="../assets/img/Instagram_logo_2016.svg" alt="">
-                    <img height="25px" src="../assets/img/facebook.svg" alt="">
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-    <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 ">
-        <label class="footer-font-gray">© 2020 Intel Blinds - Todos los Derechos Reservados</label>
-    </div>
-    <!-- Copyright -->
-
-</footer>
-    
-</body>
+// slick slider
+$('#slick').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+  draggable: true,
+  infinite: true,
+  dots: false,
+  arrows: true,
+  speed: 1000,
+  mobileFirst: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+  {
+      breakpoint: breakpoint.xs,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false
+      }
+    },
+      {
+      breakpoint: breakpoint.sm,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false
+      }
+    },
+    {
+      breakpoint: breakpoint.md,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows: false
+      }
+    },
+    {
+      breakpoint: breakpoint.lg,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: breakpoint.xl,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    }
+  ]
+});
+        </script>
+    </body>
 </html>
