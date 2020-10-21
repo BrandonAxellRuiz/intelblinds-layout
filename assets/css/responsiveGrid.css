@@ -3,3 +3,339 @@
         max-width: 1340px !important;
     }
     }
+
+@media(min-width:1897px){
+    div#caracteristicas>div.contenedor-caracteristicas:first-child{
+        margin-right: -35px;
+    }
+}
+
+@media(max-width:1896px) and (min-width:768px) {
+    .contenedor-caracteristicas{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #caracteristicas i {
+        margin-left: 30px;
+    }
+
+    #caracteristicas div:nth-child(1) p {
+        margin-left: 35px;
+    }
+
+    #caracteristicas div:nth-child(2) p {
+        margin-left: 23px;
+    }
+
+    #caracteristicas div:nth-child(3) p {
+        margin-left:30px;
+    }
+
+
+}
+
+
+
+
+    @media only screen and (max-width: 1448px) {
+        .btn-article {
+            font-size: 14px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            line-height: 17px;
+        }
+
+        #row-cards-coloridas {
+            margin-top: 200px;
+            margin-bottom: 120px;
+        }
+
+        #desc-caracteristicas {
+            padding-left: 40px;
+            padding-right: 30px;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 1199px) {
+        #basic-navbar-nav{
+            font-size: 0.88rem;
+        }
+        .btn-banner {
+            color: #FFFFFF;
+            font-weight: 600;
+            line-height: 22px;
+            font-size: 21px;
+            height: 80px;
+            border: 0px;
+            border-radius: 80px;
+            padding-left: 25px;
+            /* padding-bottom: 8px; */
+            padding-right: 8px;
+            padding-right: 25px;
+        }
+
+        .contenedor-botones-azules {
+            margin-top: 8px;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+
+        div.texto-card-colorida {
+            font-size: 24px;
+        }
+        .cards-coloridas {
+            height: 325px;
+        }
+    
+        #row-cards-coloridas {
+            margin-top: 60px;
+        }
+    
+        .cards-coloridas {
+            border-radius: 50px;
+        }
+
+        .contenedor-botones-azules {
+            display:flex;
+            justify-content: flex-end;
+            margin-top: 8px;
+        }
+
+        .btn-banner {
+            line-height: 22px;
+            font-size: 21px;
+            height: 60px;
+            padding-left: 25px;
+            /* padding-bottom: 8px; */
+            padding-right: 25px;
+        }
+    }
+
+@media only screen and (max-width: 767px) {
+
+    #footer-contenido {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    #footer-contenido > div{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    #footer-contenido {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    .btn-banner {
+        color: #FFFFFF;
+        font-weight: 600;
+        line-height: 30px;
+        font-size: 20px;
+        height: 60px;
+        border: 0px;
+        border-radius: 80px;
+        padding-left: 30px;
+        /* padding-bottom: 8px; */
+        padding-right: 8px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    div.img>.container.d-flex.flex-column.justify-content-between.align-items-end.h-100{
+        /* margin-left: 0px; */
+        margin-right: 0px;
+    }
+
+    #row-cards-coloridas {
+        margin-top: 30px;
+    }
+
+    div.texto-card-colorida {
+        font-size: 36px;
+    }
+
+    .cards-coloridas {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    #caracteristicas p {
+        margin-left: 16px;
+    }
+
+    .separador {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    #desc-caracteristicas{
+        padding-top: 64px;
+    }
+
+    #productos-1>div.row:first-child {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .contacto-email {
+        font-size: 20px;
+    }
+
+    .telefono-ring-ring {
+        font-size: 30px;
+    }
+
+    .llama-o-escribe {
+        font-size: 23px;
+    }
+    .necesitas-ayuda {
+        font-size: 31px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #productos-1 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #short-desc {
+        margin-top: 80px;
+        margin-bottom: 60px;
+        /* padding: 0px 260px; */
+        width: 80%;
+        text-align: center;
+    }
+
+    #short-desc h1 {
+        font-size: 26px;
+        color: #9A9999;
+        line-height: 35px;
+    }
+
+    .footer-font {
+        text-align: center !important;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    div#help>div>div.col-12.col-sm-7.text-left, div#help>div>div.col-12.col-sm-5.text-right.my-auto {
+        text-align: center !important;
+    }
+
+    .titulo-persiana-caracteristicas {
+        font-size: 54px;
+    }
+
+    .marca-persiana {
+        font-size: 16px;
+    }
+
+    #desc-caracteristicas{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    #short-desc h1 {
+        font-size: 22px;
+        color: #9A9999;
+        line-height: 30px;
+    }
+
+    #short-desc {
+        margin-top: 80px;
+        margin-bottom: 60px;
+        /* padding: 0px 260px; */
+        width: 90%;
+        text-align: center;
+    }
+
+    /* body>*{
+        padding-right: 0px;
+    } */
+
+    #slick {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    div.slick-list.draggable {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    html,body
+{
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.div-en-accion {
+    width: 300px;
+}
+
+.cards-coloridas {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+div#productos-anteriores > div:first-child h1 {
+    text-align: center;
+    margin-bottom: 48px;
+    /* margin-left: 16px; */
+}
+
+#caracteristicas div:nth-child(1) i {
+    margin-left: 11px;
+}
+
+#caracteristicas div:nth-child(2) i {
+    margin-left: 5px;
+}
+
+#caracteristicas div:nth-child(3) i{
+    margin-left:9px;
+}
+
+
+#caracteristicas div:nth-child(1) p {
+    margin-left: 30px;
+}
+
+#caracteristicas div:nth-child(2) p {
+    margin-left: 22px;
+}
+
+#caracteristicas div:nth-child(3) p {
+    margin-left: 28px;
+}
+
+/* .btn-banner {
+    width: 65%;
+} */
+}
+
+@media only screen and (max-width: 311px) {
+    .btn-banner {
+    width: 65%;
+}
+}
+
+
+
+
+
+
+

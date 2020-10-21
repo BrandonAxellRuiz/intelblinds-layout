@@ -31,7 +31,7 @@ footer{
     background-color: #F8F8F8;
 }
 
-.row-hero div:nth-child(2){
+.row-hero > div:nth-child(2){
     overflow: hidden;
 }
 
@@ -81,22 +81,24 @@ filter: brightness(90%);
     margin-bottom: 32px;
 }
 
-ul#caracteristicas{
+#caracteristicas{
     padding-left:0px ;
 }
 
-ul#caracteristicas li{
-    display: inline;
+#caracteristicas p{
     color: #707070;
     font-size: 23px;
     font-weight: 500;
 }
 
 
-ul#caracteristicas li i{
+#caracteristicas i{
     color: #1754A0;
-
     font-size: 32px;
+}
+
+.contenedor-caracteristicas{
+    padding: 5px;
 }
 
 .div-en-accion{
@@ -328,6 +330,7 @@ button.btn-medio{
 
 div#productos-anteriores{
     padding-top: 90px;
+    padding-bottom: 100px;
 }
 
 div#productos-anteriores > div:first-child h1{
