@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+        <link rel="stylesheet" href="../assets/css/stylesAcordeon.css">
+        <link rel="stylesheet" href="../assets/css/responsiveAcordeon.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400&family=Montserrat:wght@300;400;500;600;700display=swap" rel="stylesheet"> -->
+        <title>Mini Blinds</title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="servCliente" class="d-flex justify-content-end form-inline">
+                <a href="#link" class="nav-link">
+                    Rastrear
+                    <br>
+                    Pedido
+                </a>|<a href="#link" class="nav-link">
+                    Servicio
+                    <br>al Cliente
+                </a>
+            </form>
+
+            <!-- Comienza navbar -->
+            <nav class="d-flex justify-content-between navbar navbar-expand-lg navbar-light mb-2">
+                <a href="#home" class="navbar-brand"><img src="http://ec2-18-218-67-15.us-east-2.compute.amazonaws.com/intelblinds/wp-content/uploads/2020/07/cropped-full-logo.png" width="auto" height="40" class="d-inline-block align-top" alt="Intelblinds logo"></a>
+
+                <button class="font-header-menu navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#basic-navbar-nav" aria-controls="basic-navbar-nav" aria-controls="basic-navbar-nav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="font-header-menu navbar-collapse collapse" id="basic-navbar-nav">
+                    <div class="ml-auto mr-4 navbar-nav">
+                        <a href="#home" data-rb-event-key="#home" class="nav-link">Inicio</a>
+                        <div class="dropdown nav-item">
+                            <a aria-haspopup="true" aria-expanded="false" id="basic-nav-dropdown" href="#" class="dropdown-toggle nav-link" role="button">Productos</a>
+                        </div>
+                        <a href="#link" data-rb-event-key="#link" class="nav-link">¿Cómo medir?
+                        </a>
+                        <a href="#link" data-rb-event-key="#link" class="nav-link">¿Cómo instalar?
+                        </a>
+                        <a href="#link" data-rb-event-key="#link" class="nav-link">Contacto
+                        </a>
+                    </div>
+                    <form class="form-inline">
+                        <a href="#link" class="nav-link" style="color: rgb(161, 161, 161);">
+                            <small>MI CUENTA</small>
+                        </a>
+                        <a href="#link" class="nav-link">
+                            <small>MI CARRITO</small>
+                        </a>
+                    </form>
+                </div>
+            </nav>
+            <!-- Téermina navbar -->
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h1>Configura tus persianas</h1>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="tab tab-azul-fuerte" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link text-negro" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Persiana 1
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h4>Operación</h4>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <fieldset class="form-group">
+                                                        <div class="row">
+                                                            <div class="col-sm-10">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                                    <label class="form-check-label" for="gridRadios1">
+                                                                        MANUAL
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                                    <label class="form-check-label" for="gridRadios2">
+                                                                        MOTORIZADA
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                            <h4>Medidas</h4>
+                                            <p>Las medidas deben estar dadas en metros metros (m)
+                                            </p>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputEmail4">ANCHO</label>
+                                                            <input type="email" class="form-control" id="inputEmail4">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">ALTO</label>
+                                                            <input type="password" class="form-control" id="inputPassword4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row tab-azul-claro">
+                                                <div class="col">
+                                                    <h5>Marco</h5>
+                                                    <div class="form-check form-check-inline mr-4">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                        <label class="form-check-label" for="inlineRadio1">FUERA</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline ml-4">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">DENTRO</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <h4>Material</h4>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlSelect1">Color</label>
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>Basswood sugar maple</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                      </div>
+                                                </div>
+                                                <div class="col-6 d-flex justify-content-center flex-column mt-4">
+                                                    *El color puede variar dependiendo de tu dispositivo
+                                                    <img width="100%" height="100%" src="https://via.placeholder.com/150" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlTextarea1">Observaciones</label>
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                                      </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <button class="btn btn-secondary w-100"><i class="fas fa-window-maximize"></i> Terminar esta persiana</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tab tab-azul-claro" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed text-negro" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Persiana 2
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tab tab-azul-fuerte" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed text-negro" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Persiana 3
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col d-flex justify-content-end">
+                    <button class="btn-config-persianas mr-3">
+                        <i class="fas fa-plus"></i>
+                        <br>AGREGAR PERSIANA</button>
+                    <button class="btn-config-persianas ml-3">
+                        <i class="fas fa-search-dollar"></i>
+                        <br>COTIZAR</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer
+            class="page-footer font-small special-color-dark pt-4">
+
+            <!-- Footer Elements -->
+            <div class="container">
+                <div id="footer-contenido" class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-around footer-font">
+                        <label for="">Aviso de privacidad</label>
+                        <label for="">Términos y condiciones</label>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center">
+                        <img src="http://ec2-18-218-67-15.us-east-2.compute.amazonaws.com/intelblinds/wp-content/uploads/2020/07/cropped-full-logo.png" width="auto" height="40" class="d-inline-block align-top" alt="Intelblinds logo">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center footer-font">
+                        <div>
+                            <label for="">¡Síguenos!
+                            </label>
+                            <img height="25px" src="../assets/img/Instagram_logo_2016.svg" alt="">
+                            <img height="25px" src="../assets/img/facebook.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 ">
+                <label class="footer-font-gray">© 2020 Intel Blinds - Todos los Derechos Reservados</label>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+
+</html>
