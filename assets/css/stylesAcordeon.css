@@ -25,6 +25,8 @@ footer{
     color: #A1A1A1;
 }
 
+
+
 .tab{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -91,4 +93,9 @@ h4{
 }
 .fondo-gris-azulado{
     background-color: #D5DDEC;
+}
+
+.row-header{
+    margin-top: 150px;
+    margin-bottom: 74px;
 }
