@@ -59,3 +59,36 @@ footer{
 .card{
     border: 0px;
 }
+
+.fondo-gris{
+    background-color: #F7F6F6;
+}
+
+.fondo-blanco{
+    background-color: #FFFF;
+}
+
+input:not([type=radio]){
+    border: transparent !important;
+    font-size: 18px !important;
+    height: 55px !important;
+    border-radius: 9px 9px 9px 9px !important;
+}
+
+select{
+    border: transparent !important;
+    font-size: 18px !important;
+    height: 55px !important;
+    border-radius: 9px 9px 9px 9px !important;
+}
+
+h4{
+    font-weight: normal;
+}
+
+.espaciado-abajo{
+    margin-bottom: 32px;
+}
+.fondo-gris-azulado{
+    background-color: #D5DDEC;
+}

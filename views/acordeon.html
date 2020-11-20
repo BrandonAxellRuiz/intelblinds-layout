@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
         <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400&family=Montserrat:wght@300;400;500;600;700display=swap" rel="stylesheet"> -->
-        <title>Mini Blinds</title>
+        <title>Acordeón</title>
     </head>
     <body>
         <div class="container">
@@ -71,32 +71,36 @@
                 <div class="col">
                     <div id="accordion">
                         <div class="card">
-                            <div class="tab tab-azul-fuerte" id="headingOne">
+                            <div class="tab tab-azul-fuerte d-flex justify-content-between" id="headingOne">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link text-negro" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         Persiana 1
                                     </button>
                                 </h5>
+                                <div class="mr-4 my-auto">
+                                    <button class="btn fondo-gris-azulado"><i class="fas fa-pencil-alt"></i></button>
+                                    <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                                </div>
                             </div>
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
+                                <div class="card-body fondo-gris">
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col mt-4">
                                             <h4>Operación</h4>
                                             <div class="row">
                                                 <div class="col">
                                                     <fieldset class="form-group">
-                                                        <div class="row">
+                                                        <div class="row espaciado-abajo">
                                                             <div class="col-sm-10">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                                    <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios1" value="option1" checked>
                                                                     <label class="form-check-label" for="gridRadios1">
                                                                         MANUAL
                                                                     </label>
                                                                 </div>
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                                    <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios2" value="option2">
                                                                     <label class="form-check-label" for="gridRadios2">
                                                                         MOTORIZADA
                                                                     </label>
@@ -109,7 +113,7 @@
                                             <h4>Medidas</h4>
                                             <p>Las medidas deben estar dadas en metros metros (m)
                                             </p>
-                                            <div class="row">
+                                            <div class="row espaciado-abajo">
                                                 <div class="col">
                                                     <div class="form-row">
                                                         <div class="form-group col-md-6">
@@ -123,11 +127,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="row tab-azul-claro">
+                                            <div class="row espaciado-abajo">
                                                 <div class="col">
-                                                    <h5>Marco</h5>
+                                                    <h4>Marco</h4>
                                                     <div class="form-check form-check-inline mr-4">
-                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                        <input class="form-check-input" checked type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                                         <label class="form-check-label" for="inlineRadio1">FUERA</label>
                                                     </div>
                                                     <div class="form-check form-check-inline ml-4">
@@ -177,30 +181,220 @@
                             </div>
                         </div>
                         <div class="card">
-                            <div class="tab tab-azul-claro" id="headingTwo">
+                            <div class="tab tab-azul-claro d-flex justify-content-between" id="headingTwo">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed text-negro" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Persiana 2
                                     </button>
                                 </h5>
+                                <div class="mr-4 my-auto">
+                                    <button class="btn fondo-gris-azulado"><i class="fas fa-pencil-alt"></i></button>
+                                    <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                                </div>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <div class="card-body fondo-gris">
+                                    <div class="row">
+                                        <div class="col mt-4">
+                                            <h4>Operación</h4>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <fieldset class="form-group">
+                                                        <div class="row espaciado-abajo">
+                                                            <div class="col-sm-10">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="radio" name="gridRadios2" id="gridRadios1" value="option1" checked>
+                                                                    <label class="form-check-label" for="gridRadios1">
+                                                                        MANUAL
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="radio" name="gridRadios2" id="gridRadios2" value="option2">
+                                                                    <label class="form-check-label" for="gridRadios2">
+                                                                        MOTORIZADA
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                            <h4>Medidas</h4>
+                                            <p>Las medidas deben estar dadas en metros metros (m)
+                                            </p>
+                                            <div class="row espaciado-abajo">
+                                                <div class="col">
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputEmail4">ANCHO</label>
+                                                            <input type="email" class="form-control" id="inputEmail4">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">ALTO</label>
+                                                            <input type="password" class="form-control" id="inputPassword4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row espaciado-abajo">
+                                                <div class="col">
+                                                    <h4>Marco</h4>
+                                                    <div class="form-check form-check-inline mr-4">
+                                                        <input class="form-check-input" checked type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
+                                                        <label class="form-check-label" for="inlineRadio1">FUERA</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline ml-4">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">DENTRO</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <h4>Material</h4>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlSelect1">Color</label>
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>Basswood sugar maple</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                      </div>
+                                                </div>
+                                                <div class="col-6 d-flex justify-content-center flex-column mt-4">
+                                                    *El color puede variar dependiendo de tu dispositivo
+                                                    <img width="100%" height="100%" src="https://via.placeholder.com/150" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlTextarea1">Observaciones</label>
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                                      </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <button class="btn btn-secondary w-100"><i class="fas fa-window-maximize"></i> Terminar esta persiana</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card">
-                            <div class="tab tab-azul-fuerte" id="headingThree">
+                            <div class="tab tab-azul-fuerte d-flex justify-content-between" id="headingThree">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed text-negro" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         Persiana 3
                                     </button>
                                 </h5>
+                                <div class="mr-4 my-auto">
+                                    <button class="btn fondo-gris-azulado"><i class="fas fa-pencil-alt"></i></button>
+                                    <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                                </div>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <div class="card-body fondo-gris">
+                                    <div class="row">
+                                        <div class="col mt-4">
+                                            <h4>Operación</h4>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <fieldset class="form-group">
+                                                        <div class="row espaciado-abajo">
+                                                            <div class="col-sm-10">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="radio" name="gridRadios3" id="gridRadios1" value="option1" checked>
+                                                                    <label class="form-check-label" for="gridRadios1">
+                                                                        MANUAL
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="radio" name="gridRadios3" id="gridRadios2" value="option2">
+                                                                    <label class="form-check-label" for="gridRadios2">
+                                                                        MOTORIZADA
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                            <h4>Medidas</h4>
+                                            <p>Las medidas deben estar dadas en metros metros (m)
+                                            </p>
+                                            <div class="row espaciado-abajo">
+                                                <div class="col">
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputEmail4">ANCHO</label>
+                                                            <input type="email" class="form-control" id="inputEmail4">
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">ALTO</label>
+                                                            <input type="password" class="form-control" id="inputPassword4">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row espaciado-abajo">
+                                                <div class="col">
+                                                    <h4>Marco</h4>
+                                                    <div class="form-check form-check-inline mr-4">
+                                                        <input class="form-check-input" checked type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
+                                                        <label class="form-check-label" for="inlineRadio1">FUERA</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline ml-4">
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
+                                                        <label class="form-check-label" for="inlineRadio2">DENTRO</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <h4>Material</h4>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlSelect1">Color</label>
+                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                          <option>Basswood sugar maple</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                        </select>
+                                                      </div>
+                                                </div>
+                                                <div class="col-6 d-flex justify-content-center flex-column mt-4">
+                                                    *El color puede variar dependiendo de tu dispositivo
+                                                    <img width="100%" height="100%" src="https://via.placeholder.com/150" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlTextarea1">Observaciones</label>
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                                                      </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <button class="btn btn-secondary w-100"><i class="fas fa-window-maximize"></i> Terminar esta persiana</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
