@@ -146,6 +146,11 @@
     font-size: 16px;
 }
 
+.footer-font>label {
+margin-left: 7px;
+margin-right: 7px;
+}
+
 .mucho-texto{
     font-size: 18px;
     line-height: 22px;
@@ -164,9 +169,13 @@
     margin-top: 16px;
 }
 
-#contacto > div.row  > div{
+#contacto > div.row > div{
     text-align: center !important;
 }
+
+#help > div.row > div:nth-child(2){
+    text-align: center !important;
+} 
 
 .btn-azul{
     margin-top: 8px;
