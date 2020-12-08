@@ -6,8 +6,69 @@
 
     /* ESTILOS DEFAULT PARA HEADER/FOOTER */
     @media only screen and (max-width: 1199px) {
+
+        #divtieneproblema{
+            display: none;
+        }
+
+        #div1199{
+            display: flex !important;
+        }
+
+        #contacto{
+            margin-top: 32px;
+        }
+
         #basic-navbar-nav{
             font-size: 0.88rem;
+        }
+
+        .titulo-semibold{
+            font-size: 32px;
+            line-height: 32px;
+        }
+
+        #divtieneproblema{
+            width: 100vw;
+        }
+
+        #divtieneproblema div{
+            margin: 0px 0px;
+        }
+
+        #divtieneproblema > div:first-child{
+            margin: 200px 0px 0px 0px;
+        }
+
+        .mucho-texto {
+            font-size: 27px;
+            letter-spacing: 1.35px;
+            color: #656060;
+            line-height: 35px;
+            font-weight: 300;
+        }
+
+        /* body{
+            background-color: red;
+        } */
+    }
+
+    @media only screen and (max-width: 991px) {
+        #divGarantia span {
+            font-size: 35px;
+        }
+
+        .mucho-texto{
+            font-size: 22px;
+        }
+
+        .titulo-semibold{
+            letter-spacing: 0px;
+            font-size: 26px;
+        }
+
+        .subtitulo-gris{
+            font-size: 22px;
         }
     }
 
@@ -27,4 +88,87 @@
             margin-top: 16px;
             margin-bottom: 32px;
         }
+
+        .titulo-semibold {
+            letter-spacing: 0px;
+            font-size: 24px;
+            line-height: 26px;
+        }
+
+        .subtitulo-gris {
+            font-size: 18px;
+            letter-spacing: 0.35px;
+            line-height: 22px;
+        }
+
+        .mucho-texto{
+            line-height: 30px;
+        }
+
+        .llama-o-escribe {
+            font-size: 16px;
+        }
+
+        .contacto-email {
+            color: #216EFC;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .btn-azul{
+            font-size: 14px;
+        }
+
+        #divGarantia{
+            width: 85%;
+        }
+
+        #divGarantia span {
+            font-size: 36px;
+        }
+
+
     }
+
+@media only screen and (max-width: 575px) {
+#divGarantia{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#divGarantia span{
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.footer-font {
+    text-align: center !important;
+    font-size: 16px;
+}
+
+.mucho-texto{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.titulo-semibold{
+    font-size: 22px;
+}
+
+#divIconPhone{
+    text-align: center !important;
+    padding-bottom: 16px;
+}
+
+#contacto{
+    margin-top: 16px;
+}
+
+#contacto > div.row  > div{
+    text-align: center !important;
+}
+
+.btn-azul{
+    margin-top: 8px;
+}
+}
