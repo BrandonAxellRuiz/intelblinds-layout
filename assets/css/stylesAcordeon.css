@@ -1,0 +1,105 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+#servCliente a{
+    font-size: 13px;
+    letter-spacing: 0.36px;
+    color: #828282
+}
+
+.footer-font{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #363636;
+    font-weight: bold;
+}
+
+.footer-font-gray{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #A1A1A1;
+}
+
+
+
+.tab{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 46px;
+    border-radius: 9px;
+}
+.tab-azul-fuerte{
+    background-color: #B7D0FE85;
+}
+
+.tab-azul-claro{
+    background-color: #216EFC17;
+}
+
+.text-negro{
+    color: #313131;
+    font-size: 24px;
+}
+
+.btn-config-persianas{
+    width: 260px;
+    color: white;
+    background-color: #216EFC;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.card{
+    border: 0px;
+}
+
+.fondo-gris{
+    background-color: #F7F6F6;
+}
+
+.fondo-blanco{
+    background-color: #FFFF;
+}
+
+input:not([type=radio]){
+    border: transparent !important;
+    font-size: 18px !important;
+    height: 55px !important;
+    border-radius: 9px 9px 9px 9px !important;
+}
+
+select{
+    border: transparent !important;
+    font-size: 18px !important;
+    height: 55px !important;
+    border-radius: 9px 9px 9px 9px !important;
+}
+
+h4{
+    font-weight: normal;
+}
+
+.espaciado-abajo{
+    margin-bottom: 32px;
+}
+.fondo-gris-azulado{
+    background-color: #D5DDEC;
+}
+
+.row-header{
+    margin-top: 100px;
+    margin-bottom: 64px;
+}
+
+.card-body {
+    padding:48px;
+}
